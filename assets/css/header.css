@@ -1,0 +1,53 @@
+#navitems{
+    list-style: none;
+    position: relative;
+    /* left:85%; */
+    font-size:20px;
+}
+.link{
+    text-decoration: none;
+}
+header{
+    width:100%;
+    background-color: rgb(152, 152, 242);
+    height:12%;
+    display:flex;
+    align-items: center;
+}
+li{
+    display: inline;
+}
+#name{
+    position: relative;
+    /* left:-5%; */
+    right:13%;
+}
+ul li{
+    position: relative;
+    left:70vw;
+    top:7px;
+}
+@media  (max-width: 1300px) {
+    ul li{
+        position: relative;
+        left:60vw;
+    }
+}
+@media  (max-width: 900px) {
+    ul li{
+        position: relative;
+        left:45vw;
+    }
+}
+@media  (max-width: 600px) {
+    ul li{
+        position: relative;
+        left:30vw;
+    }
+}
+@media  (max-width: 475px) {
+    ul li{
+        position: relative;
+        left:15vw;
+    }
+}

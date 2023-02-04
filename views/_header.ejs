@@ -1,0 +1,28 @@
+<header>
+    <link rel="stylesheet" href="/css/header.css">
+    <h2 id="company">CodeWars.inc</h2>
+    <ul id="navitems">
+        <% if (locals.user){ %>
+            <li>
+                <a href="/users/profile" class="link" id="name">
+                    <%= user.name %>
+                </a>
+            </li>
+            <li>
+                <a href="/users/sign-out" class="link" id="sign-out">Sign Out  </a>
+            </li>
+        <% }else{ %>
+
+            <li>
+                <a href="/users/sign-in" class="link">Sign In</a>
+            </li>
+
+            <li>
+                <a href="/users/sign-up" class="link">Sign Up</a>
+            </li>
+
+
+        <% } %>
+    </ul>
+
+</header>

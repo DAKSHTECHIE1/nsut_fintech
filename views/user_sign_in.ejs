@@ -1,0 +1,90 @@
+<h1>Sign In</h1>
+
+<!-- <form action="/users/create-session" method="POST">
+    <input type="email" name="email" placeholder="Email"  required>
+    <input type="password" name="password" placeholder="Password"  required>
+    <input type="submit" value="Sign In">
+
+</form> -->
+
+    
+    <section class="text-center text-lg-start">
+        <style>
+          .cascading-right {
+            margin-right: -50px;
+          }
+          
+    
+          @media (max-width: 991.98px) {
+            .cascading-right {
+              margin-right: 0;
+            }
+          }
+
+          .wrapper {
+            box-shadow: 0 0 20px 4px rgba(0, 0, 0 , 0.1);
+          }
+
+          .main-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        </style>
+      
+        <!-- Jumbotron -->
+        <div class="container py-4">
+          <div class="row g-0 align-items-center main-wrapper">
+            <div class="col-lg-6 mb-5 mb-lg-0 wrapper">
+              <div class="card cascading-right" style="
+                  background: hsla(0, 0%, 100%, 0.55);
+                  backdrop-filter: blur(30px);
+                  ">
+                <div class="card-body p-5 shadow-5 text-center">
+                  <h2 class="fw-bold mb-5">Sign in</h2>
+                  <form action="/users/create-session" method="POST">
+                    <!-- 2 column grid layout with text inputs for the first and last names -->
+                    
+                     
+                        
+                 
+                    
+    
+                    
+                      <div class="form-outline mb-4">
+                        <!-- <input type="email" name="email" placeholder="Your Email" required> -->
+                        <input type="email" name="email" id="form3Example2" class="form-control" placeholder="Your Email" required/>
+                        <!-- <label class="form-label" for="form3Example2">Email</label> -->
+                      </div>
+                    
+      
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <!-- <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required> -->
+                      <input type="password" name="password" id="form3Example3" class="form-control" placeholder="Password" required/>
+                      <label class="form-label" for="form3Example3"></label>
+                    </div>
+      
+                    
+                    <input value="Sign In" type="submit" class="btn btn-primary btn-block mb-4">
+                      
+                  </input>
+                  </form>
+                  <!-- Register buttons -->
+                  <div class="text-center">
+                    <p>or Sign in with:</p>
+                    
+                    <button type="button" class="btn btn-link btn-floating mx-1">
+                        <a href="/users/auth/google"><i class="fab fa-google"></i></a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            
+          </div>
+        </div>
+        <!-- Jumbotron -->
+      </section>
